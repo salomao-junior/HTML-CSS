@@ -7,11 +7,7 @@
   height: 48px;
   background-color: var(--blue-regular-01);
 }
-
-.header__container {
-  width: 100%;
-}
-
+/* TODO REMOVIDO HEADER__CONTAINER */
 .header__img {
   display: none;
 }

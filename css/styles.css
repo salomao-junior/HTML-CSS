@@ -16,7 +16,8 @@
   --blue-regular-01: #2571b7;
   --blue-regular-02: #0072c6;
   --blue-regular-03: #2c5898;
-  --blue-dark: #2571b7;
+  --blue-regular-04: #0073c6;
+  --blue-dark: #094ab2;
   --blue-darker: #002050;
 
   --green-light: #7fba00;
@@ -27,6 +28,31 @@
   --orange-dark: #cb4a32;
   --orange: #f25022;
 
+  --cyan: #0093be;
+
+  --lilac: #5558af;
   --purple: #733781;
   --purple-dark: #74156a;
+}
+
+.section {
+  margin: 2rem 1.2rem;
+}
+
+p {
+  font-size: 15px;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  & h2 {
+    color: var(--blue-regular-01);
+  }
+
+  & p {
+    color: var(--gray);
+  }
 }

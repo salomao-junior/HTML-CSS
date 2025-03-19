@@ -41,8 +41,8 @@
   background-color: var(--blue-light-01);
 }
 
-.hero__img {
-  width: 150px;
+.hero__image {
+  width: 130px;
   position: absolute;
   bottom: 2rem;
 }
