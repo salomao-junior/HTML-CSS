@@ -7,9 +7,12 @@
 
 :root {
   --white: #ffffff;
+  --black: #2d2d2d;
+
   --gray: #737373;
   --gray-light-01: #dedede;
   --gray-light-02: #b4b4b4;
+  --gray-light-03: #e6e6e6;
 
   --blue-light-01: #00a4ef;
   --blue-light-02: #00aff0;
@@ -50,6 +53,7 @@ p {
 
   & h2 {
     color: var(--blue-regular-01);
+    font-weight: 600;
   }
 
   & p {
