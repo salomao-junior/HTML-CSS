@@ -1,0 +1,71 @@
+.subscribe__banner {
+  margin: 3rem 0;
+  display: flex;
+  align-items: center;
+  background-image: url("/assets/images/subscribe/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 1.2rem;
+}
+
+.banner__title {
+  color: var(--white);
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.subscribe__description {
+  color: var(--gray);
+  text-align: center;
+}
+
+.subscribe__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.8rem;
+  background-color: var(--gray-light-03);
+  padding: 1rem;
+}
+
+.form__field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label {
+  color: var(--gray);
+  font-size: 14px/30px;
+}
+
+.form__input {
+  margin-top: 6px;
+  height: 44px;
+  padding-left: 1rem;
+  outline: none;
+  border: none;
+  color: var(--black);
+}
+
+.form__input::placeholder {
+  color: var(--gray);
+}
+
+.form__input--focus {
+  border: 2px solid var(--blue-regular-01);
+}
+
+.form__label--focus {
+  color: var(--blue-regular-01);
+}
+
+.form__button {
+  margin: 12px 0 2px 0;
+  background-color: var(--blue-light-01);
+  color: var(--white);
+  border: none;
+  font-size: 21px;
+  height: 52px;
+}
