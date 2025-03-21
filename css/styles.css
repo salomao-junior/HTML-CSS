@@ -1,3 +1,12 @@
+@import url("/css/navbar.css");
+@import url("/css/hero.css");
+@import url("/css/about.css");
+@import url("/css/objectives.css");
+@import url("/css/integrity.css");
+@import url("/css/benefits.css");
+@import url("/css/subscribe.css");
+@import url("/css/footer.css");
+
 * {
   margin: 0;
   padding: 0;
