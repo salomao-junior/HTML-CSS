@@ -4,14 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="css/navbar.css" />
-    <link rel="stylesheet" type="text/css" href="css/hero.css" />
-    <link rel="stylesheet" type="text/css" href="css/about.css" />
-    <link rel="stylesheet" type="text/css" href="css/objectives.css" />
-    <link rel="stylesheet" type="text/css" href="css/integrity.css" />
-    <link rel="stylesheet" type="text/css" href="css/benefits.css" />
-    <link rel="stylesheet" type="text/css" href="css/subscribe.css" />
-    <link rel="stylesheet" type="text/css" href="css/footer.css" />
 
     <title>Landing Page</title>
   </head>
@@ -19,29 +11,49 @@
     <header class="header">
       <img class="header__img" src="assets/images/logo.svg" alt="Logo." />
       <nav class="header__nav">
-        <div class="nav__mobile-menu">
-          <span class="mobile-menu__bar"></span>
-          <span class="mobile-menu__bar"></span>
-          <span class="mobile-menu__bar"></span>
+        <div class="header__nav__mobile-menu">
+          <span class="header__nav__mobile-menu__bar"></span>
+          <span class="header__nav__mobile-menu__bar"></span>
+          <span class="header__nav__mobile-menu__bar"></span>
         </div>
-        <ul class="nav__list">
-          <li class="nav__item">Lorem ipsum</li>
-          <li class="nav__item">Lorem ipsum</li>
-          <li class="nav__item">Lorem ipsum</li>
+        <ul class="header__nav__list">
+          <li class="header__nav__list__item">Lorem ipsum</li>
+          <li class="header__nav__list__item">Lorem ipsum</li>
+          <li class="header__nav__list__item">Lorem ipsum</li>
         </ul>
-        <button class="nav__button">Lorem ipsum</button>
+        <button class="header__nav__button">Lorem ipsum</button>
       </nav>
     </header>
 
     <main>
       <section class="hero">
         <div class="hero__container">
-          <h1 class="hero__title">Lorem ipsum</h1>
-          <h2 class="hero__subtitle">
+          <h1 class="hero__container__title">Lorem ipsum</h1>
+          <p class="hero__container__subtitle">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
-          </h2>
-          <button class="hero__button">Lorem ipsum</button>
-          <img class="hero__image" src="assets/images/logo.svg" alt="Logo." />
+          </p>
+          <button class="hero__container__button">Lorem ipsum</button>
+          <div class="hero__container__images">
+            <svg
+              id="hero__container__images__arrow-down"
+              width="56"
+              height="25"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 56 30"
+            >
+              <path
+                d="M 0 0 L 28 30 L 56 0"
+                stroke="#FFFFFF"
+                stroke-width="2"
+                fill="transparent"
+              />
+            </svg>
+            <img
+              id="hero__container__images__logo"
+              src="assets/images/logo.svg"
+              alt="Logo."
+            />
+          </div>
         </div>
       </section>
 
@@ -59,158 +71,178 @@
 
       <section class="objectives section">
         <header class="objectives__header section-header">
-          <h2 class="objectives__title">Lorem Ipsum</h2>
-          <p class="objectives__subtitle">
+          <h2 class="objectives__header__title">Lorem Ipsum</h2>
+          <p class="objectives__header__subtitle">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor
           </p>
         </header>
 
         <div class="objectives__list">
-          <div class="list__objective-card">
+          <div class="objectives__list__objective-card">
             <img
-              class="objective-card__image"
+              class="objectives__list__objective-card__image"
               src="assets/images/objetives/bullseye.svg"
               alt="Bullseye image."
             />
-            <div class="objective-card__content">
-              <h3 class="objective-card__title">Lorem ipsum</h3>
-              <p class="objective-card__description">
+            <div class="objectives__list__objective-card__content">
+              <h3 class="objectives__list__objective-card__content__title">
+                Lorem ipsum
+              </h3>
+              <p class="objectives__list__objective-card__content__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna
               </p>
             </div>
           </div>
 
-          <div class="list__objective-card">
+          <div class="objectives__list__objective-card">
             <img
-              class="objective-card__image"
+              class="objectives__list__objective-card__image"
               src="assets/images/objetives/bullseye.svg"
               alt="Bullseye image."
             />
-            <div class="objective-card__content">
-              <h3 class="objective-card__title">Lorem ipsum</h3>
-              <p class="objective-card__description">
+            <div class="objectives__list__objective-card__content">
+              <h3 class="objectives__list__objective-card__content__title">
+                Lorem ipsum
+              </h3>
+              <p class="objectives__list__objective-card__content__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna
               </p>
             </div>
           </div>
 
-          <div class="list__objective-card">
+          <div class="objectives__list__objective-card">
             <img
-              class="objective-card__image"
+              class="objectives__list__objective-card__image"
               src="assets/images/objetives/bullseye.svg"
               alt="Bullseye image."
             />
-            <div class="objective-card__content">
-              <h3 class="objective-card__title">Lorem ipsum</h3>
-              <p class="objective-card__description">
+            <div class="objectives__list__objective-card__content">
+              <h3 class="objectives__list__objective-card__content__title">
+                Lorem ipsum
+              </h3>
+              <p class="objectives__list__objective-card__content__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna
               </p>
             </div>
           </div>
 
-          <div class="list__objective-card">
+          <div class="objectives__list__objective-card">
             <img
-              class="objective-card__image"
+              class="objectives__list__objective-card__image"
               src="assets/images/objetives/bullseye.svg"
               alt="Bullseye image."
             />
-            <div class="objective-card__content">
-              <h3 class="objective-card__title">Lorem ipsum</h3>
-              <p class="objective-card__description">
+            <div class="objectives__list__objective-card__content">
+              <h3 class="objectives__list__objective-card__content__title">
+                Lorem ipsum
+              </h3>
+              <p class="objectives__list__objective-card__content__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna
               </p>
             </div>
           </div>
 
-          <div class="list__objective-card">
+          <div class="objectives__list__objective-card">
             <img
-              class="objective-card__image"
+              class="objectives__list__objective-card__image"
               src="assets/images/objetives/bullseye.svg"
               alt="Bullseye image."
             />
-            <div class="objective-card__content">
-              <h3 class="objective-card__title">Lorem ipsum</h3>
-              <p class="objective-card__description">
+            <div class="objectives__list__objective-card__content">
+              <h3 class="objectives__list__objective-card__content__title">
+                Lorem ipsum
+              </h3>
+              <p class="objectives__list__objective-card__content__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna
               </p>
             </div>
           </div>
 
-          <div class="list__objective-card">
+          <div class="objectives__list__objective-card">
             <img
-              class="objective-card__image"
+              class="objectives__list__objective-card__image"
               src="assets/images/objetives/bullseye.svg"
               alt="Bullseye image."
             />
-            <div class="objective-card__content">
-              <h3 class="objective-card__title">Lorem ipsum</h3>
-              <p class="objective-card__description">
+            <div class="objectives__list__objective-card__content">
+              <h3 class="objectives__list__objective-card__content__title">
+                Lorem ipsum
+              </h3>
+              <p class="objectives__list__objective-card__content__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna
               </p>
             </div>
           </div>
 
-          <div class="list__objective-card">
+          <div class="objectives__list__objective-card">
             <img
-              class="objective-card__image"
+              class="objectives__list__objective-card__image"
               src="assets/images/objetives/bullseye.svg"
               alt="Bullseye image."
             />
-            <div class="objective-card__content">
-              <h3 class="objective-card__title">Lorem ipsum</h3>
-              <p class="objective-card__description">
+            <div class="objectives__list__objective-card__content">
+              <h3 class="objectives__list__objective-card__content__title">
+                Lorem ipsum
+              </h3>
+              <p class="objectives__list__objective-card__content__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna
               </p>
             </div>
           </div>
 
-          <div class="list__objective-card">
+          <div class="objectives__list__objective-card">
             <img
-              class="objective-card__image"
+              class="objectives__list__objective-card__image"
               src="assets/images/objetives/bullseye.svg"
               alt="Bullseye image."
             />
-            <div class="objective-card__content">
-              <h3 class="objective-card__title">Lorem ipsum</h3>
-              <p class="objective-card__description">
+            <div class="objectives__list__objective-card__content">
+              <h3 class="objectives__list__objective-card__content__title">
+                Lorem ipsum
+              </h3>
+              <p class="objectives__list__objective-card__content__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna
               </p>
             </div>
           </div>
 
-          <div class="list__objective-card">
+          <div class="objectives__list__objective-card">
             <img
-              class="objective-card__image"
+              class="objectives__list__objective-card__image"
               src="assets/images/objetives/bullseye.svg"
               alt="Bullseye image."
             />
-            <div class="objective-card__content">
-              <h3 class="objective-card__title">Lorem ipsum</h3>
-              <p class="objective-card__description">
+            <div class="objectives__list__objective-card__content">
+              <h3 class="objectives__list__objective-card__content__title">
+                Lorem ipsum
+              </h3>
+              <p class="objectives__list__objective-card__content__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna
               </p>
             </div>
           </div>
 
-          <div class="list__objective-card">
+          <div class="objectives__list__objective-card">
             <img
-              class="objective-card__image"
+              class="objectives__list__objective-card__image"
               src="assets/images/objetives/bullseye.svg"
               alt="Bullseye image."
             />
-            <div class="objective-card__content">
-              <h3 class="objective-card__title">Lorem ipsum</h3>
-              <p class="objective-card__description">
+            <div class="objectives__list__objective-card__content">
+              <h3 class="objectives__list__objective-card__content__title">
+                Lorem ipsum
+              </h3>
+              <p class="objectives__list__objective-card__content__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna
               </p>
@@ -221,56 +253,68 @@
 
       <section class="integrity section">
         <header class="integrity__header section-header">
-          <h2 class="integrity__title">Lorem Ipsum</h2>
+          <h2 class="integrity__header__title">Lorem Ipsum</h2>
         </header>
 
         <div class="integrity__list">
-          <div class="list__integrity-item">
-            <div class="integrity-item__content">
-              <h3 class="integrity-item__title">Lorem ipsum dolor</h3>
-              <p class="integrity-item__description">
+          <div class="integrity__list__integrity-item">
+            <div class="integrity__list__integrity-item__content">
+              <h3 class="integrity__list__integrity-item__content__title">
+                Lorem ipsum dolor
+              </h3>
+              <p class="integrity__list__integrity-item__content__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
                 ipsum suspendisse ultrices gravida.
               </p>
-              <button class="integrity-item__button">Lorem ipsum</button>
+              <button class="integrity__list__integrity-item__content__button">
+                Lorem ipsum
+              </button>
             </div>
             <img
-              class="integrity-item__image"
+              class="integrity__list__integrity-item__image"
               src="assets/images/integrity/handshake.svg"
               alt="Handshake image."
             />
           </div>
 
-          <div class="list__integrity-item">
-            <div class="integrity-item__content">
-              <h3 class="integrity-item__title">Lorem ipsum dolor</h3>
-              <p class="integrity-item__description">
+          <div class="integrity__list__integrity-item">
+            <div class="integrity__list__integrity-item__content">
+              <h3 class="integrity__list__integrity-item__content__title">
+                Lorem ipsum dolor
+              </h3>
+              <p class="integrity__list__integrity-item__content__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
                 ipsum suspendisse ultrices gravida.
               </p>
-              <button class="integrity-item__button">Lorem ipsum</button>
+              <button class="integrity__list__integrity-item__content__button">
+                Lorem ipsum
+              </button>
             </div>
             <img
-              class="integrity-item__image"
+              class="integrity__list__integrity-item__image"
               src="assets/images/integrity/verified.svg"
               alt="Verified image."
             />
           </div>
 
-          <div class="list__integrity-item">
-            <div class="integrity-item__content">
-              <h3 class="integrity-item__title">Lorem ipsum dolor</h3>
-              <p class="integrity-item__description">
+          <div class="integrity__list__integrity-item">
+            <div class="integrity__list__integrity-item__content">
+              <h3 class="integrity__list__integrity-item__content__title">
+                Lorem ipsum dolor
+              </h3>
+              <p class="integrity__list__integrity-item__content__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
                 ipsum suspendisse ultrices gravida.
               </p>
-              <button class="integrity-item__button">Lorem ipsum</button>
+              <button class="integrity__list__integrity-item__content__button">
+                Lorem ipsum
+              </button>
             </div>
             <img
-              class="integrity-item__image"
+              class="integrity__list__integrity-item__image"
               src="assets/images/integrity/notebook.svg"
               alt="Notebook image."
             />
@@ -280,37 +324,45 @@
 
       <section class="benefits section">
         <header class="benefits__header section-header">
-          <h2 class="benefits__title">Lorem impsum dolor</h2>
+          <h2 class="benefits__header__title">Lorem impsum dolor</h2>
         </header>
 
         <div class="benefits__list">
-          <div class="list__benefit-item">
-            <h3 class="benefit-item__title">Lorem ipsum dolor</h3>
-            <p class="benefit-item__description">
+          <div class="benefits__list__benefit-item">
+            <h3 class="benefits__list__benefit-item__title">
+              Lorem ipsum dolor
+            </h3>
+            <p class="benefits__list__benefit-item__description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua
             </p>
           </div>
 
-          <div class="list__benefit-item">
-            <h3 class="benefit-item__title">Lorem ipsum dolor</h3>
-            <p class="benefit-item__description">
+          <div class="benefits__list__benefit-item">
+            <h3 class="benefits__list__benefit-item__title">
+              Lorem ipsum dolor
+            </h3>
+            <p class="benefits__list__benefit-item__description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua
             </p>
           </div>
 
-          <div class="list__benefit-item">
-            <h3 class="benefit-item__title">Lorem ipsum dolor</h3>
-            <p class="benefit-item__description">
+          <div class="benefits__list__benefit-item">
+            <h3 class="benefits__list__benefit-item__title">
+              Lorem ipsum dolor
+            </h3>
+            <p class="benefits__list__benefit-item__description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua
             </p>
           </div>
 
-          <div class="list__benefit-item">
-            <h3 class="benefit-item__title">Lorem ipsum dolor</h3>
-            <p class="benefit-item__description">
+          <div class="benefits__list__benefit-item">
+            <h3 class="benefits__list__benefit-item__title">
+              Lorem ipsum dolor
+            </h3>
+            <p class="benefits__list__benefit-item__description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua
             </p>
@@ -320,70 +372,86 @@
 
       <section class="subscribe">
         <div class="subscribe__banner">
-          <h2 class="banner__title">
+          <h2 class="subscribe__banner__title">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore
           </h2>
         </div>
 
         <div class="subscribe__container section">
-          <p class="subscribe__description">
+          <p class="subscribe__container__description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
 
-          <form action="#" onsubmit="return false;" class="subscribe__form">
-            <div class="form__field">
-              <label for="firstName" class="form__label">Lorem ipsum</label>
+          <form
+            action="#"
+            onsubmit="return false;"
+            class="subscribe__container__form"
+          >
+            <div class="subscribe__container__form__field">
+              <label for="firstName" class="subscribe__container__form__label"
+                >Lorem ipsum</label
+              >
               <input
                 type="text"
                 id="firstName"
                 placeholder="Lorem ipsum"
-                class="form__input"
+                class="subscribe__container__form__input"
               />
             </div>
 
-            <div class="form__field">
-              <label for="lastName" class="form__label">Lorem ipsum</label>
+            <div class="subscribe__container__form__field">
+              <label for="lastName" class="subscribe__container__form__label"
+                >Lorem ipsum</label
+              >
               <input
                 type="text"
                 id="lastName"
                 placeholder="Lorem ipsum"
-                class="form__input"
+                class="subscribe__container__form__input"
               />
             </div>
 
-            <div class="form__field">
-              <label for="email" class="form__label">Lorem ipsum</label>
+            <div class="subscribe__container__form__field">
+              <label for="email" class="subscribe__container__form__label"
+                >Lorem ipsum</label
+              >
               <input
                 type="email"
                 id="email"
                 placeholder="Lorem ipsum"
-                class="form__input"
+                class="subscribe__container__form__input"
               />
             </div>
 
-            <div class="form__field">
-              <label for="github" class="form__label">Lorem ipsum</label>
+            <div class="subscribe__container__form__field">
+              <label for="github" class="subscribe__container__form__label"
+                >Lorem ipsum</label
+              >
               <input
                 type="text"
                 id="github"
                 placeholder="Lorem ipsum"
-                class="form__input"
+                class="subscribe__container__form__input"
               />
             </div>
 
-            <div class="form__field">
-              <label for="phoneNumber" class="form__label">Lorem ipsum</label>
+            <div class="subscribe__container__form__field">
+              <label for="phoneNumber" class="subscribe__container__form__label"
+                >Lorem ipsum</label
+              >
               <input
                 type="text"
                 id="phoneNumber"
                 placeholder="Lorem ipsum"
-                class="form__input"
+                class="subscribe__container__form__input"
               />
             </div>
 
-            <button type="submit" class="form__button">Lorem ipsum</button>
+            <button type="submit" class="subscribe__container__form__button">
+              Lorem ipsum
+            </button>
           </form>
         </div>
       </section>
@@ -392,13 +460,13 @@
     <footer class="footer">
       <div class="footer__images">
         <img
-          class="footer__image"
-          src="assets/images/logo-blue.png"
+          class="footer__images__logo"
+          src="assets/images/logo-blue.svg"
           alt="Logo."
         />
         <img
-          class="footer__image"
-          src="assets/images/logo-blue.png"
+          class="footer__images__logo"
+          src="assets/images/logo-blue.svg"
           alt="Logo."
         />
       </div>

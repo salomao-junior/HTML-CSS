@@ -7,7 +7,7 @@
   height: 48px;
   background-color: var(--blue-regular-01);
 }
-/* TODO REMOVIDO HEADER__CONTAINER */
+
 .header__img {
   display: none;
 }
@@ -20,29 +20,29 @@
   padding: 0 1rem;
 }
 
-.nav__mobile-menu {
+.header__nav__mobile-menu {
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
 
-.mobile-menu__bar {
+.header__nav__mobile-menu__bar {
   display: block;
   width: 24px;
   height: 2px;
   background-color: var(--white);
 }
 
-.nav__list {
+.header__nav__list {
   display: none;
   list-style: none;
 }
 
-.nav__item {
+.header__nav__list__item {
   color: var(--white);
 }
 
-.nav__button {
+.header__nav__button {
   width: 112px;
   height: 28px;
   border: none;

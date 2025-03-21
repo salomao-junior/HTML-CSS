@@ -21,18 +21,18 @@
   text-align: center;
 }
 
-.hero__title {
+.hero__container__title {
   font-size: 42px;
   font-weight: 600;
 }
 
-.hero__subtitle {
+.hero__container__subtitle {
   font-size: 24px;
   margin: 1.2rem 0 3rem 0;
   font-weight: lighter;
 }
 
-.hero__button {
+.hero__container__button {
   border: none;
   width: 188px;
   height: 52px;
@@ -41,7 +41,16 @@
   background-color: var(--blue-light-01);
 }
 
-.hero__image {
+.hero__container__images {
+  display: flex;
+  justify-content: center;
+}
+
+#hero__container__images__arrow-down {
+  display: none;
+}
+
+#hero__container__images__logo {
   width: 130px;
   position: absolute;
   bottom: 2rem;

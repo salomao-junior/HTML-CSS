@@ -7,7 +7,7 @@
   border: 3px solid var(--gray-light-01);
 }
 
-.list__benefit-item {
+.benefits__list__benefit-item {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -23,12 +23,12 @@
   }
 }
 
-.benefit-item__title {
+.benefits__list__benefit-item__title {
   color: var(--orange);
   font-size: 15px;
 }
 
-.benefit-item__description {
+.benefits__list__benefit-item__description {
   color: var(--gray);
   font-size: 12px;
 }

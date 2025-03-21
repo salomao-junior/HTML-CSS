@@ -9,19 +9,19 @@
   padding: 1.2rem;
 }
 
-.banner__title {
+.subscribe__banner__title {
   color: var(--white);
   font-size: 24px;
   font-weight: normal;
   text-align: center;
 }
 
-.subscribe__description {
+.subscribe__container__description {
   color: var(--gray);
   text-align: center;
 }
 
-.subscribe__form {
+.subscribe__container__form {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -30,17 +30,17 @@
   padding: 1rem;
 }
 
-.form__field {
+.subscribe__container__form__field {
   display: flex;
   flex-direction: column;
 }
 
-.form__label {
+.subscribe__container__form__label {
   color: var(--gray);
   font-size: 14px/30px;
 }
 
-.form__input {
+.subscribe__container__form__input {
   margin-top: 6px;
   height: 44px;
   padding-left: 1rem;
@@ -49,19 +49,19 @@
   color: var(--black);
 }
 
-.form__input::placeholder {
+.subscribe__container__form__input::placeholder {
   color: var(--gray);
 }
 
-.form__input--focus {
+.subscribe__container__form__input--focus {
   border: 2px solid var(--blue-regular-01);
 }
 
-.form__label--focus {
+.subscribe__container__form__label--focus {
   color: var(--blue-regular-01);
 }
 
-.form__button {
+.subscribe__container__form__button {
   margin: 12px 0 2px 0;
   background-color: var(--blue-light-01);
   color: var(--white);

@@ -5,7 +5,7 @@
   gap: 1.5rem;
 }
 
-.objectives__title {
+.objectives__header__title {
   font-size: 24px;
 }
 
@@ -16,7 +16,7 @@
   margin: 1.5rem 0;
 }
 
-.list__objective-card {
+.objectives__list__objective-card {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -73,10 +73,10 @@
   }
 }
 
-.objective-card__title {
+.objectives__list__objective-card__content__title {
   font-size: 18px;
 }
 
-.objective-card__description {
+.objectives__list__objective-card__content__description {
   font-size: 12px;
 }
