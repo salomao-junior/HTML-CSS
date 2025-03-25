@@ -10,6 +10,7 @@
 
 .integrity__list__integrity-item {
   display: flex;
+  gap: 18px;
   padding: 1.2rem 0;
 
   &:nth-child(1),
@@ -89,6 +90,7 @@
   .integrity__list {
     flex-direction: row;
     justify-content: space-between;
+    gap: 6rem;
   }
 
   .integrity__list__integrity-item {

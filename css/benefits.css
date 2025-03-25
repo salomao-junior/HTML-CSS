@@ -48,6 +48,7 @@
 @media (min-width: 992px) {
   .benefits__list {
     display: flex;
+    margin-top: 3rem;
   }
 
   .benefits__list__benefit-item {

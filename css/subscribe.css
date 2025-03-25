@@ -37,7 +37,7 @@
 
 .subscribe__container__form__label {
   color: var(--gray);
-  font-size: 14px/30px;
+  font-size: 12px;
 }
 
 .subscribe__container__form__input {
@@ -47,9 +47,11 @@
   outline: none;
   border: none;
   color: var(--black);
+  font-size: 15px;
 }
 
 .subscribe__container__form__input::placeholder {
+  font-size: 15px;
   color: var(--gray);
 }
 
@@ -71,6 +73,10 @@
 }
 
 @media (min-width: 425px) {
+  .subscribe__banner {
+    padding: 3rem;
+  }
+
   .subscribe__container {
     display: flex;
     flex-direction: column;
@@ -84,7 +90,7 @@
 
 @media (min-width: 768px) {
   .subscribe__banner {
-    padding: 2.5rem;
+    padding: 4rem;
   }
 
   .subscribe__banner__title {
@@ -92,27 +98,65 @@
   }
 
   .subscribe__container__form {
+    padding: 2rem 3rem 3rem 3rem;
     width: 425px;
+  }
+
+  .subscribe__container__form__input {
+    font-size: 18px;
+  }
+
+  .subscribe__container__form__input::placeholder {
+    font-size: 18px;
+  }
+
+  .subscribe__container__form__label {
+    font-size: 14px;
   }
 }
 
 @media (min-width: 992px) {
   .subscribe__banner {
-    padding: 5rem;
+    margin: 6rem 0;
   }
 
   .subscribe__banner__title {
     font-size: 32px;
   }
+
+  .subscribe__container__form {
+    width: 565px;
+    margin-top: 2.5rem;
+  }
+
+  .subscribe__container__form__input {
+    font-size: 20px;
+  }
+
+  .subscribe__container__form__input::placeholder {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 1200px) {
+  .subscribe__container__form {
+    margin-top: 3rem;
+  }
+
   .subscribe__banner__title {
     font-size: 36px;
+  }
+
+  .subscribe__container__description {
+    font-size: 24px;
   }
 }
 
 @media (min-width: 1400px) {
+  .subscribe__banner {
+    padding: 5rem 8rem;
+  }
+
   .subscribe__banner__title {
     font-size: 48px;
   }

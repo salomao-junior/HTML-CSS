@@ -89,9 +89,15 @@
 }
 
 @media (min-width: 992px) {
+  .objectives__header {
+    gap: 3rem;
+  }
+
   .objectives__list {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 1.5rem 3rem;
+    margin: 3rem 0;
   }
 
   .objectives__list__objective-card {
