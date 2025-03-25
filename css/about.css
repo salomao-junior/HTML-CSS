@@ -6,7 +6,17 @@
 }
 
 .about__paragraph {
-  font-size: 15px;
   text-align: center;
   color: var(--gray);
+}
+
+@media (min-width: 768px) {
+  .about {
+    padding: 2rem 0;
+  }
+
+  .about__span {
+    color: var(--orange);
+    font-weight: 600;
+  }
 }

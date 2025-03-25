@@ -49,3 +49,30 @@
   color: var(--white);
   background-color: var(--blue-darker);
 }
+
+@media (min-width: 992px) {
+  .header__nav__mobile-menu {
+    display: none;
+  }
+
+  .header {
+    height: 60px;
+    padding: 0 4rem;
+  }
+
+  .header__img {
+    display: block;
+    width: 120px;
+  }
+
+  .header__nav {
+    justify-content: right;
+    gap: 4rem;
+    padding: 0;
+  }
+
+  .header__nav__list {
+    display: flex;
+    gap: 2rem;
+  }
+}

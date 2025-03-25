@@ -74,9 +74,47 @@
 }
 
 .objectives__list__objective-card__content__title {
+  font-weight: 600;
   font-size: 18px;
 }
 
 .objectives__list__objective-card__content__description {
   font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .objectives__list__objective-card__content__description {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  .objectives__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .objectives__list__objective-card {
+    &:nth-child(7),
+    &:nth-child(8) {
+      display: flex;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .objectives__list__objective-card {
+    &:nth-child(9),
+    &:nth-child(10) {
+      display: flex;
+    }
+  }
+
+  .objectives__list__objective-card__content__title {
+    font-size: 20px;
+  }
+
+  .objectives__list__objective-card__content__description {
+    font-size: 16px;
+  }
 }

@@ -25,10 +25,56 @@
 
 .benefits__list__benefit-item__title {
   color: var(--orange);
+  font-weight: 600;
   font-size: 15px;
 }
 
 .benefits__list__benefit-item__description {
   color: var(--gray);
   font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .benefits__list__benefit-item__title {
+    font-size: 18px;
+  }
+
+  .benefits__list__benefit-item__description {
+    color: var(--gray);
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  .benefits__list {
+    display: flex;
+  }
+
+  .benefits__list__benefit-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    height: 150px;
+
+    &:nth-child(1),
+    &:nth-child(2),
+    &:nth-child(3) {
+      border-right: 3px solid var(--gray-light-01);
+      border-bottom: none;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .benefits__list__benefit-item__title {
+    font-size: 20px;
+  }
+
+  .benefits__list__benefit-item__description {
+    color: var(--gray);
+    font-size: 16px;
+  }
 }
