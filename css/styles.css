@@ -7,8 +7,6 @@
 @import url("/css/subscribe.css");
 @import url("/css/footer.css");
 
-/* TODO --> CRIAR ESTILO PARA TITLES E DESCRIPTIONS GLOBAL PARA INTEGRITY, BENEFITS, OBJECTIVES */
-
 * {
   margin: 0;
   padding: 0;
@@ -84,6 +82,11 @@ p {
   }
 }
 
+button:hover {
+  cursor: pointer;
+  filter: brightness(1.1);
+}
+
 @media (min-width: 425px) {
   .section {
     margin: 2rem 3rem;
@@ -107,10 +110,6 @@ p {
 @media (min-width: 1200px) {
   p {
     font-size: 20px;
-  }
-
-  .section {
-    margin: 3rem 4rem;
   }
 }
 
