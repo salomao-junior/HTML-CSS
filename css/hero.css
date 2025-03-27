@@ -97,11 +97,11 @@
   #hero__container__images__arrow-down {
     display: block;
     position: absolute;
-    bottom: 5rem;
+    bottom: 3rem;
   }
 
   #hero__container__images__logo {
-    bottom: 5rem;
+    bottom: 3rem;
     right: 4rem;
   }
 }
