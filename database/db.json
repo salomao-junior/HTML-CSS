@@ -1,0 +1,12 @@
+{
+  "customers": [
+    {
+      "id": "5d30",
+      "firstName": "Salomão",
+      "lastName": "Ferreira Junior",
+      "email": "salomao.junior@monks.com",
+      "github": "salomao-junior",
+      "phoneNumber": "(35) 9 9769-5915"
+    }
+  ]
+}
